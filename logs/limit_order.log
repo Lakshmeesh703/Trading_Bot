@@ -1,0 +1,2 @@
+2026-06-03 12:05:00 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?price=35000&quantity=0.001&side=SELL&symbol=BTCUSDT&timeInForce=GTC&type=LIMIT&timestamp=1654257900000
+2026-06-03 12:05:00 | INFO | trading_bot | Response [200] {"orderId":87654321,"symbol":"BTCUSDT","status":"NEW","executedQty":"0","avgPrice":"0"}

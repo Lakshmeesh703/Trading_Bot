@@ -1,0 +1,23 @@
+2026-06-03 12:38:38,838 | WARNING | trading_bot | No API credentials provided; running in dry-run mode
+2026-06-03 12:38:38,838 | ERROR | trading_bot | Order failed
+Traceback (most recent call last):
+  File "/home/lakshmeesh_shet/Lakshmeesh Shet/VS Code/Intership_1/trading_bot/cli_typer.py", line 58, in order
+    resp = service.place(symbol, s, t, q, p, sp)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: OrderService.place() takes from 5 to 6 positional arguments but 7 were given
+2026-06-03 12:39:05,850 | WARNING | trading_bot | No API credentials provided; running in dry-run mode
+2026-06-03 12:39:05,851 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1780470545850&type=MARKET
+2026-06-03 12:39:05,851 | INFO | trading_bot | Dry-run response {'orderId': 83698633, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.001', 'avgPrice': '0'}
+2026-06-03 12:39:05,851 | INFO | trading_bot | Order placed: {'orderId': 83698633, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.001', 'avgPrice': '0'}
+2026-06-03 12:39:14,187 | WARNING | trading_bot | No API credentials provided; running in dry-run mode
+2026-06-03 12:39:14,187 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?price=35000.0&quantity=0.001&side=SELL&symbol=BTCUSDT&timeInForce=GTC&timestamp=1780470554187&type=LIMIT
+2026-06-03 12:39:14,187 | INFO | trading_bot | Dry-run response {'orderId': 68536580, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0', 'avgPrice': '35000.0'}
+2026-06-03 12:39:14,187 | INFO | trading_bot | Order placed: {'orderId': 68536580, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0', 'avgPrice': '35000.0'}
+2026-06-03 12:39:23,302 | WARNING | trading_bot | No API credentials provided; running in dry-run mode
+2026-06-03 12:39:23,303 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?price=None&quantity=0.001&side=SELL&stopPrice=34950.0&symbol=BTCUSDT&timeInForce=GTC&timestamp=1780470563303&type=STOP
+2026-06-03 12:39:23,303 | INFO | trading_bot | Dry-run response {'orderId': 79662513, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0', 'avgPrice': '0'}
+2026-06-03 12:39:23,303 | INFO | trading_bot | Order placed: {'orderId': 79662513, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0', 'avgPrice': '0'}
+2026-06-03 12:46:35,838 | WARNING | trading_bot | No API credentials provided; running in dry-run mode
+2026-06-03 12:46:35,839 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1780470995839&type=MARKET
+2026-06-03 12:46:35,839 | INFO | trading_bot | Dry-run response {'orderId': 75905474, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.001', 'avgPrice': '0'}
+2026-06-03 12:46:35,839 | INFO | trading_bot | Order placed: {'orderId': 75905474, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.001', 'avgPrice': '0'}

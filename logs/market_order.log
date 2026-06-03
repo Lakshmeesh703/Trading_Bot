@@ -1,0 +1,2 @@
+2026-06-03 12:00:00 | INFO | trading_bot | POST https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1654257600000
+2026-06-03 12:00:00 | INFO | trading_bot | Response [200] {"orderId":12345678,"symbol":"BTCUSDT","status":"NEW","executedQty":"0.001","avgPrice":"30000"}
